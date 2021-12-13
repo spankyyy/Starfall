@@ -20,7 +20,7 @@ function mglib.debugPrint(...)
     end
 end
 
--- Runs trought all players and creates a class for them
+-- Runs through all players and creates a class for them
 function mglib.createPlayerClasses()
     local temporaryPlayerTable = {}
     for k, v in pairs(find.allPlayers()) do
